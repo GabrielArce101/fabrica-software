@@ -1,0 +1,11 @@
+nome = input("digite seu nome: \n")
+idade = input("digite sua idade: \n")
+sexo = input("digite seu genero: \n")
+endereco = input("digite seu endereço: \n")
+telefone = input("digite seu telefone: \n")
+
+print("nome: \n",nome)
+print("idade: \n",idade)
+print("sexo: \n",sexo)
+print("endereco: \n",endereco)
+print("telefone: \n",telefone)
