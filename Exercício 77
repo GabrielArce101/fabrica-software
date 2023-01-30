@@ -1,0 +1,19 @@
+vogais = {'A', 'E', 'I', 'O', 'U'}
+def ler_vetor() -> [str]:
+
+   caracteres = [str(input("Digite um caractere: ")) for _ in range(0, 10)]
+   return caracteres
+def verificar_consoantes(caracteres: [str]):
+
+   consoantes = []
+   for caractere in caracteres:
+       if caractere.upper() not in vogais:
+           consoantes.append(caractere)
+           print(f"As consoantes digitadas foram: {consoantes}")
+def main():
+    vetor_caracteres = ler_vetor()
+    verificar_consoantes(vetor_caracteres)
+if __name__ == "__main__":
+    main()
+    
+    
