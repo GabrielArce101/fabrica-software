@@ -1,0 +1,11 @@
+#  Range é igual a "PERCORRER".
+
+#  A ultima virgula é de quanto em quanto vc quer que seja contado.
+
+#  A variavel, dentro do FOR*****IN, não é importante.
+
+
+inicio = 50
+fim = 100
+for num in range(inicio,fim,5):
+    print(num)
